@@ -1,0 +1,38 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$white: #ffffff;
+$blue: blue;
+$yellow: #FFFFE1;
+
+ body {
+   background: $white; // Using this variable
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: large;
+   margin-left: 25px;
+ }
+p {
+  font-size: medium;
+}
+.button {
+  padding: 3px 10px;
+  font-size: 20px;
+  border-radius: 3px;
+  background-color: $blue;
+  border-color: $blue;
+  color: $white;
+  margin: 0%;
+}
+.question {
+  font-size: 20px;
+  padding: 3px 10px;
+  margin: 0%;
+}
+.questions {
+  margin: 15px;
+}
+.coach_answer {
+  margin: 15px;
+  background-color: $yellow;
+  padding: 15px 20px;
+}
